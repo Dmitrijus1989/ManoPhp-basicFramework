@@ -1,0 +1,48 @@
+.main {
+    border: solid 1px black;
+    display: inline-block;
+    width: 400px;
+    min-height: 250px;
+    margin: 6px;
+    padding: 6px;
+    align-self: flex-start;
+    float: left;
+    position: relative;
+}
+.task {
+    text-align: center;
+}
+.body {
+    display: flex;
+}
+.myH {
+    margin-bottom: 0;
+}
+.myP {
+    margin-top: 0;
+}
+.taskInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-pos {
+    background-color: green;
+}
+.bg-neg {
+    background-color: rgba(255, 0, 0, 0.7)
+;
+}
+.bg-posrib {
+    background-color: lightgreen;
+}
+.bg-negrib {
+    background-color: rgba(240, 128, 128, 0.7);
+}
+.css-class-1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url('https://static.thenounproject.com/png/14871-200.png');
+    height: 200;
+    width: 200;
+}

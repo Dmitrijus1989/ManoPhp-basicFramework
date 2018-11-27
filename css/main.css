@@ -1,0 +1,145 @@
+
+.main {
+    border: solid 1px black;
+    display: inline-block;
+    width: 400px;
+    min-height: 250px;
+    margin: 6px;
+    padding: 6px;
+    align-self: flex-start;
+    float: left;
+    position: relative;
+}
+.task {
+    text-align: center;
+}
+.body {
+    display: flex;
+}
+.myH {
+    margin-bottom: 0;
+}
+.myP {
+    margin-top: 0;
+}
+.taskInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.taskInside form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.task1-button {
+    align-self: center;
+}
+.footer-wrapper {
+    height: 20vh;
+    background-color: gray;
+}
+.aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.taskInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.taskInside form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.task1-button {
+    align-self: center;
+}
+.row {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+.my-second-dropdown-trigger:hover  .my-second-dropdown{
+    display: block;
+}
+.my-second-dropdown {
+    display: none;
+    left: 99%;
+    top: 0;
+    position: absolute;
+    z-index: 1000;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 1px solid rgba(0,0,0,.15);
+    border-right: 1px solid rgba(0,0,0,.15);
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+#mySecondDropdownTrigger {
+    cursor: pointer;
+}
+.small-box {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.main-content-123 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.aside-wrapper {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+}
+
+#loading-image {
+    position: absolute;
+    z-index: 100;
+}
+
+.dar13-input{
+    display: block;
+    width: 400px;
+    margin: 6px;
+}
+.day13-form button {
+    margin-left: 166px;
+}
+.day13-output {
+    max-width: 600px;
+    min-height: 400px;
+}

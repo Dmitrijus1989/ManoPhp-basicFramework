@@ -1,0 +1,38 @@
+.main {
+    border: solid 1px black;
+    display: inline-block;
+    width: 400px;
+    min-height: 250px;
+    margin: 6px;
+    padding: 6px;
+    align-self: flex-start;
+    float: left;
+    position: relative;
+}
+.task {
+    text-align: center;
+}
+.body {
+    display: flex;
+}
+.myH {
+    margin-bottom: 0;
+}
+.myP {
+    margin-top: 0;
+}
+.taskInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.leave-button {
+    position: relative;
+    z-index: 999;
+}
+.myStyle-leave-btn {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+}

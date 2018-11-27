@@ -1,0 +1,110 @@
+.main {
+    border: solid 1px black;
+    display: inline-block;
+    width: 400px;
+    min-height: 250px;
+    margin: 6px;
+    padding: 6px;
+    align-self: flex-start;
+    float: left;
+    position: relative;
+}
+.task {
+    text-align: center;
+}
+.body {
+    display: flex;
+}
+.myH {
+    margin-bottom: 0;
+}
+.myP {
+    margin-top: 0;
+}
+.task5 {
+    background-color: gray;
+    position: relative;
+}
+.mySquare {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+}
+.myClass1 {
+    color: blue;
+}
+.myClass2 {
+    transform: scaleX(2);
+    transform-origin: left;
+}
+.myClass3 {
+    transform: rotate(20deg);
+    transform-origin: left;
+}
+.inside-wrapper {
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.myDice1 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1b/Dice-1-b.svg");
+}
+.myDice2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Dice-2-b.svg");
+}
+.myDice3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Dice-3-b.svg");
+}
+.myDice4 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fd/Dice-4-b.svg");
+}
+.myDice5 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/08/Dice-5-b.svg");
+}
+.myDice6 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/26/Dice-6-b.svg");
+}
+.musuSkDef {
+    display: none;
+}
+.musuSk0 {
+    display: block;
+}
+.myBomb {
+    margin: auto;
+    background-image: url('bomb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    height: 100px;
+    width: 140px;
+}
+.myBombSec {
+    text-align: center;
+    margin-top: 30px;
+}
+.myBombBlow00, .myBombBlow01 {
+    margin: auto;
+    background-image: url('explosion.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    height: 100px;
+    width: 140px;
+    transform: scale(1.6) !important;
+}
+.myBombBlow02, .myBombBlow03 {
+    margin: auto;
+    background-image: url('Uqe.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    left: 25%;
+    bottom: 10px;
+    height: 200px;
+    width: 200px;
+}

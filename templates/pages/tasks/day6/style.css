@@ -1,0 +1,38 @@
+.main {
+    border: solid 1px black;
+    display: inline-block;
+    width: 400px;
+    min-height: 250px;
+    margin: 6px;
+    padding: 6px;
+    align-self: flex-start;
+    float: left;
+    position: relative;
+}
+.task {
+    text-align: center;
+}
+.body {
+    display: flex;
+}
+.myH {
+    margin-bottom: 0;
+}
+.myP {
+    margin-top: 0;
+}
+.taskInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.taskInside2 {
+    display: flex;
+    
+}
+.produktas {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+}

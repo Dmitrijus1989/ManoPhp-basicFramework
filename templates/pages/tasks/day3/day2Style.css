@@ -1,0 +1,56 @@
+.main {
+    border: solid 1px black;
+    display: inline-block;
+    width: 400px;
+    min-height: 250px;
+    margin: 6px;
+    padding: 6px;
+    align-self: flex-start;
+    float: left;
+    position: relative;
+}
+.task {
+    text-align: center;
+}
+.body {
+    display: flex;
+}
+.myH {
+    margin-bottom: 0;
+}
+.myP {
+    margin-top: 0;
+}
+.taskInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.task1 p {
+    margin: 5px 0;
+
+}
+.taskInside img {
+    margin: 6px;
+}
+.task3 ul li {
+    margin-left: 25px;
+}
+.task4img {
+    height: 60px;
+}
+.zenklas-kvadratas {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.zenklas-apskritimas {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.taskInside5 {
+    flex-direction: column;
+}
